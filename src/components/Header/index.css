@@ -1,0 +1,82 @@
+/* Write your CSS here */
+
+.web-site-logo-react-icon-hamburger-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+
+  border-bottom: 1px solid #dcdcdc;
+}
+.website-logo {
+  width: 40px;
+  margin: 18px;
+}
+.hamburger-menu-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin: 18px;
+}
+.popup-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 21px;
+}
+.close-icon-btn {
+  display: flex;
+  flex-direction: column;
+}
+.close-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.close-btn-card {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.link-p-ele-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.re-icon-card {
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin: 10px;
+}
+.icons {
+  margin-top: 20px;
+  font-size: 36px;
+  margin-right: 10px;
+  color: #000000;
+}
+.link-titles {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #000000;
+
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    margin: 30px;
+  }
+  .hamburger-menu-btn {
+    margin: 30px;
+  }
+}

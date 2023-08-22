@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.not-found-container {
+  height: 100vh;
+}
+
+.not-found-logo {
+  width: 150px;
+  height: 300px;
+}
+.not-found-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+.why-header {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.go-right-way {
+  font-size: 21px;
+  font-weight: 700;
+  color: #616e7c;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .not-found-logo {
+    width: 350px;
+    height: 400px;
+  }
+}

@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.about-container {
+  height: 100vh;
+}
+
+.about-lg-logo {
+  display: none;
+}
+.about-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+.about-sm-logo {
+  display: flex;
+  width: 220px;
+}
+@media screen and (min-width: 768px) {
+  .about-lg-logo {
+    display: flex;
+    width: 65%;
+  }
+  .about-sm-logo {
+    display: none;
+  }
+}
